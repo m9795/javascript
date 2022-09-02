@@ -54,15 +54,37 @@
 // alert(1941566 / 2);
 
 // 練習
-let money = 150
-let orange = 1000
-let diff = (money - orange)
+// let money = 150
+// let orange = 1000
+// let diff = (money - orange)
 
-if (diff >= 0){
-  alert
-  ("所持金は" + money + "円、みかんは" + orange + "円です。"
-  + "残金は" + diff + "円です")
-} else{
-  alert("所持金は" + money + "円、みかんは" + orange + "円です。"
-  + "みかんは買えません")
-}
+// if (diff >= 0){
+//   alert
+//   ("所持金は" + money + "円、みかんは" + orange + "円です。"
+//   + "残金は" + diff + "円です")
+// } else{
+//   alert("所持金は" + money + "円、みかんは" + orange + "円です。"
+//   + "みかんは買えません")
+// }
+
+// ------------------------------------------
+
+// 関数(結合)　引数と戻り値
+// function addString(strA){
+//   let addStr = "Hello" + strA;
+//   return addStr;
+// }
+
+// メイン部分
+// let alertString;
+// alertString = addString("WebCamp");
+
+// 作成した関数の呼び出し
+// alert(alertString);
+
+// // 作成した関数
+// function addString(strA){
+//   let addStr = "Hello" + strA;
+//   return addStr;
+// }
+
