@@ -113,6 +113,7 @@
 // JavaScriptとのじゃんけん作成
 let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
 
+
 let js_hand = getJShand();
 let judge = winLose(user_hand, js_hand);
 
