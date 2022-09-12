@@ -18,8 +18,15 @@
 
 
 // 上記記述をthisを使って書き換え
+// $(function(){
+//   $('.box1').on('click', function(){
+//     $(this).slideUp();
+//   });
+// });
+
+
 $(function(){
-  $('.box1').on('click', function(){
-    $(this).slideUp();
+  $('button').on('click', function(){
+    $('ul').children().css('color', 'red');
   });
 });
